@@ -9,19 +9,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="site.js"></script>
 </head>
 <body>
   <header>
     <div class="header-inner">
       <a href="index.html" class="site-name">Stefán Ólafsson</a>
       <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('nav').classList.toggle('open')">&#9776;</button>
-      <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="research.html">Research</a>
-        <a href="events.html">Events & Activities</a>
-        <a href="service.html">Service & Supervision</a>
-        <a href="consulting.html">Consulting</a>
-      </nav>
+      <nav></nav>
     </div>
   </header>
 
@@ -69,16 +65,7 @@
     <!-- Events -->
     <div class="section">
       <h2>Events &amp; Activities</h2>
-      <ul class="item-list">
-        <li>
-          <h3>Participant in the Nordic AI Union Workshop</h3>
-          <p class="item-meta">April 7, 2026 &middot; Reykjavik</p>
-        </li>
-        <li>
-          <h3>Attending CLARIN University Curricula Workshop</h3>
-          <p class="item-meta">April 20&ndash;22, 2026 &middot; Utrecht, Netherlands</p>
-        </li>
-      </ul>
+      <ul class="item-list" id="highlight-events" data-count="3"></ul>
       <p style="margin-top:1rem;">
         <a href="events.html">View all events &amp; activities &rarr;</a>
       </p>
@@ -110,26 +97,7 @@
     <!-- Selected Publications -->
     <div class="section">
       <h2>Selected Publications</h2>
-      <ul class="pub-list">
-        <li>
-          <div class="pub-title"><a href="https://scholar.google.is/citations?view_op=view_citation&hl=en&user=F0xHwH8AAAAJ&citation_for_view=F0xHwH8AAAAJ:2osOgNQ5qMEC" target="_blank" rel="noopener">Patient and Consumer Safety Risks When Using Conversational Assistants for Medical Information</a></div>
-          <div class="pub-authors">TW Bickmore, H Trinh, S Olafsson, TK O'Leary, R Asadi, NM Rickles, ...</div>
-          <div class="pub-venue">Journal of Medical Internet Research 20 (9), e11510</div>
-          <span class="pub-year">2018</span>
-        </li>
-        <li>
-          <div class="pub-title"><a href="https://scholar.google.is/citations?view_op=view_citation&hl=en&user=F0xHwH8AAAAJ&citation_for_view=F0xHwH8AAAAJ:_FxGoFyzp5QC" target="_blank" rel="noopener">Motivating Health Behavior Change with Humorous Virtual Agents</a></div>
-          <div class="pub-authors">S Olafsson, TK O'Leary, TW Bickmore</div>
-          <div class="pub-venue">Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents</div>
-          <span class="pub-year">2020</span>
-        </li>
-        <li>
-          <div class="pub-title"><a href="https://scholar.google.is/citations?view_op=view_citation&hl=en&user=F0xHwH8AAAAJ&citation_for_view=F0xHwH8AAAAJ:M3ejUd6NZC8C" target="_blank" rel="noopener">Accommodating User Expressivity while Maintaining Safety for a Virtual Alcohol Misuse Counselor</a></div>
-          <div class="pub-authors">S Olafsson, P Pedrelli, BC Wallace, T Bickmore</div>
-          <div class="pub-venue">Proceedings of the 23rd ACM International Conference on Intelligent Virtual Agents</div>
-          <span class="pub-year">2023</span>
-        </li>
-      </ul>
+      <ul class="pub-list" id="selected-publications"></ul>
       <p style="margin-top:1rem;">
         <a href="research.html">View all publications &rarr;</a>
       </p>
