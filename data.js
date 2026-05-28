@@ -31,16 +31,10 @@ const EVENTS = [
     title: "Attending the CLARIN University Curricula Workshop",
   },
   {
-    start: "2026-06-03",
-    end: "2026-06-05",
-    meta: "June 3&ndash;5, 2026 &middot; Reykjavik University",
-    title: "Speaker at the AI and Cultural Competencies Course",
-  },
-  {
     start: "2026-09-07",
     end: "2026-09-11",
     meta: "September 7&ndash;11, 2026 &middot; Puebla, Mexico",
-    title: "Attending IVA 2026",
+    title: "Chairing the Doctoral Consortium at IVA 2026",
   },
   {
     start: "2026-09-24",
