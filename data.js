@@ -108,6 +108,11 @@ const EVENTS = [
     title: 'Attended as Program Committee member and Workshop &amp; Tutorial Chair at the 25th International Conference on Intelligent Virtual Agents (<a href="https://iva.acm.org/2025/" target="_blank" rel="noopener">IVA25</a>)',
   },
   {
+    start: "2025-09-08",
+    meta: "September 8, 2025 &middot; University of Iceland",
+    title: 'Presented on the start-up Careflux as part of the <a href="https://malvis.hi.is/is/hvad-er-i-gangi-i-islenskri-maltaekni-fyrirlestrarod-maltaekniseturs" target="_blank" rel="noopener">&ldquo;Hvað er í gangi í íslenskri máltækni?&rdquo;</a> lecture series',
+  },
+  {
     start: "2025-08-12",
     meta: "August 12, 2025 &middot; Reykjavik University",
     title: "Organized a workshop on AI for the Psychology Department",
