@@ -203,6 +203,11 @@ const EVENTS = [
     title: 'Program Committee member at the 23th international conference on Intelligent Virtual Agents (<a href="https://iva.acm.org/2023/" target="_blank" rel="noopener">IVA23</a>)',
   },
   {
+    start: "2023-06-14",
+    meta: "June 14, 2023",
+    title: 'Hosted the Official Opening of the <a href="https://www.nltp-info.eu/post/iceland-introduces-muninn-their-national-language-technology-platform" target="_blank" rel="noopener">Muninn Language Technologies Portal</a>',
+  },
+  {
     start: "2022-09-01",
     meta: "September 2022 &middot; Faro, Portugal",
     title: 'Program Committee member at the 22nd international conference on Intelligent Virtual Agents (<a href="https://ivaconference2022.ualg.pt" target="_blank" rel="noopener">IVA22</a>)',
