@@ -213,6 +213,11 @@ const EVENTS = [
     title: "Invited speaker on generative AI &mdash; Landsbankinn",
   },
   {
+    start: "2023-06-01",
+    meta: "June 1, 2023 &middot; Reykjavik University",
+    title: 'Hosted Dr. Tobias Kowatsch for the talk &ldquo;Digital Therapeutics for Healthy Longevity&rdquo; and the workshop &ldquo;MobileCoach: An Open Source Software Platform for Digital Health Interventions&rdquo;',
+  },
+  {
     start: "2022-09-01",
     meta: "September 2022 &middot; Faro, Portugal",
     title: 'Program Committee member at the 22nd international conference on Intelligent Virtual Agents (<a href="https://ivaconference2022.ualg.pt" target="_blank" rel="noopener">IVA22</a>)',
