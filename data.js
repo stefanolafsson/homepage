@@ -183,6 +183,11 @@ const EVENTS = [
     title: 'Attended the <a href="https://gudni.forseti.is/fréttir/2024-01-18-nýskoepunarverðlaun-forseta-íslands/" target="_blank" rel="noopener">Nýsköpunarverðlaun forseta Íslands</a> (President of Iceland\'s Innovation Award) &mdash; students were nominated for their work',
   },
   {
+    start: "2023-09-22",
+    meta: "September 22, 2023 &middot; University of Zurich",
+    title: 'Invited speaker at the interdisciplinary workshop <a href="https://ethics.dsi.uzh.ch/news/invitation_humanization-of-healthcare-chatbots/" target="_blank" rel="noopener">&ldquo;Humanization of Healthcare Chatbots&rdquo;</a>',
+  },
+  {
     start: "2023-09-01",
     meta: "September 2023 &middot; Würzburg, Germany",
     title: 'Program Committee member at the 23th international conference on Intelligent Virtual Agents (<a href="https://iva.acm.org/2023/" target="_blank" rel="noopener">IVA23</a>)',
