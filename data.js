@@ -163,6 +163,11 @@ const EVENTS = [
     title: 'Attended <a href="https://www.saa.is/is/frettir-greinar/malthing-saa" target="_blank" rel="noopener">M&aacute;l&thorn;ing S&Aacute;&Aacute;</a> &mdash; Quality and Results in Treatment Work',
   },
   {
+    start: "2024-10-31",
+    meta: "October 31, 2024",
+    title: 'Guest on the <a href="https://open.spotify.com/episode/22hpfE8aMPGajP6VogWs2L" target="_blank" rel="noopener">Verkfræðivarpið</a> podcast with Anna Sigríður Islind',
+  },
+  {
     start: "2024-10-15",
     meta: "October 15, 2024 &middot; Reykjavik University",
     title: "Presented on AI at the Third Stage of Life &mdash; H&aacute;sk&oacute;li &thorn;ri&eth;ja &aelig;viskei&eth;s",
