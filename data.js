@@ -218,6 +218,11 @@ const EVENTS = [
     title: 'Hosted Dr. Tobias Kowatsch for the talk &ldquo;Digital Therapeutics for Healthy Longevity&rdquo; and the workshop &ldquo;MobileCoach: An Open Source Software Platform for Digital Health Interventions&rdquo;',
   },
   {
+    start: "2023-04-26",
+    meta: "April 26, 2023",
+    title: 'Guest lecture &mdash; &ldquo;Natural Language Interactions with Virtual Human Counselors&rdquo; at CDHI (ETH Zurich, University of Zurich, University of St. Gallen)',
+  },
+  {
     start: "2023-03-01",
     meta: "Spring 2023",
     title: 'Took the <a href="https://www.informatics-europe.org/events/academic-leadership-development.html" target="_blank" rel="noopener">Informatics Europe Academic Leadership Development Course</a>, led by Geraldine Fitzpatrick',
