@@ -189,6 +189,11 @@ const EVENTS = [
   },
   {
     start: "2023-09-01",
+    meta: "September 2023",
+    title: 'Co-authored &ldquo;Notkun gervigreindar í heilbrigðiskerfinu&rdquo; in <a href="https://www.sky.is/images/stories/Tolvumal/Tolvumal_2023.pdf" target="_blank" rel="noopener">Tölvumál</a>',
+  },
+  {
+    start: "2023-09-01",
     meta: "September 2023 &middot; Würzburg, Germany",
     title: 'Program Committee member at the 23th international conference on Intelligent Virtual Agents (<a href="https://iva.acm.org/2023/" target="_blank" rel="noopener">IVA23</a>)',
   },
