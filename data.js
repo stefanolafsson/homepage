@@ -223,6 +223,11 @@ const EVENTS = [
     title: 'Guest lecture &mdash; &ldquo;Natural Language Interactions with Virtual Human Counselors&rdquo; at CDHI (ETH Zurich, University of Zurich, University of St. Gallen)',
   },
   {
+    start: "2023-04-19",
+    meta: "April 19, 2023 &middot; School of Social Sciences, University of Iceland",
+    title: "Invited talk on Artificial Intelligence",
+  },
+  {
     start: "2023-03-01",
     meta: "Spring 2023",
     title: 'Took the <a href="https://www.informatics-europe.org/events/academic-leadership-development.html" target="_blank" rel="noopener">Informatics Europe Academic Leadership Development Course</a>, led by Geraldine Fitzpatrick',
