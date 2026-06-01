@@ -178,6 +178,11 @@ const EVENTS = [
     title: 'Attended as Program Committee member and Demo Chair at the 24th International Conference on Intelligent Virtual Agents (<a href="https://iva.acm.org/2024/" target="_blank" rel="noopener">IVA24</a>)',
   },
   {
+    start: "2024-01-18",
+    meta: "January 18, 2024",
+    title: 'Attended the <a href="https://gudni.forseti.is/fréttir/2024-01-18-nýskoepunarverðlaun-forseta-íslands/" target="_blank" rel="noopener">Nýsköpunarverðlaun forseta Íslands</a> (President of Iceland\'s Innovation Award) &mdash; students were nominated for their work',
+  },
+  {
     start: "2023-09-01",
     meta: "September 2023 &middot; Würzburg, Germany",
     title: 'Program Committee member at the 23th international conference on Intelligent Virtual Agents (<a href="https://iva.acm.org/2023/" target="_blank" rel="noopener">IVA23</a>)',
