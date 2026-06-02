@@ -28,7 +28,7 @@ const EVENTS = [
     start: "2026-04-20",
     end: "2026-04-22",
     meta: "April 20&ndash;22, 2026 &middot; Utrecht, Netherlands",
-    title: "Attending the CLARIN University Curricula Workshop",
+    title: "Attended the CLARIN University Curricula Workshop",
   },
   {
     start: "2026-09-07",
