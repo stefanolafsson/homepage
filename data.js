@@ -40,7 +40,7 @@ const EVENTS = [
     start: "2026-10-14",
     end: "2026-10-15",
     meta: "October 14&ndash;15, 2026 &middot; Reykjavik University",
-    title: "Organizing the Nordic AI Meet",
+    title: 'Co-organizer of the <a href="https://www.nordicaimeet.com" target="_blank" rel="noopener">Nordic AI Meet</a>',
   },
 
   // ── Past (sorted automatically) ──
