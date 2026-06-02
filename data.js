@@ -20,11 +20,6 @@ const NAV_ITEMS = [
 const EVENTS = [
   // ── Upcoming (sorted automatically) ──
   {
-    start: "2026-04-07",
-    meta: "April 7, 2026 &middot; Reykjavik",
-    title: "Participant in the Nordic AI Union Workshop",
-  },
-  {
     start: "2026-04-20",
     end: "2026-04-22",
     meta: "April 20&ndash;22, 2026 &middot; Utrecht, Netherlands",
