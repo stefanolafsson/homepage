@@ -233,6 +233,11 @@ const EVENTS = [
     title: 'Took the <a href="https://www.informatics-europe.org/events/academic-leadership-development.html" target="_blank" rel="noopener">Informatics Europe Academic Leadership Development Course</a>, led by Geraldine Fitzpatrick',
   },
   {
+    start: "2023-02-10",
+    meta: "February 10, 2023 &middot; Iceland Academy of the Arts",
+    title: "Invited panelist on AI",
+  },
+  {
     start: "2023-02-01",
     meta: "February 2023",
     title: "Team Soultech &mdash; 2nd place at the Gulleggið start-up innovation competition",
