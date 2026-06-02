@@ -105,7 +105,7 @@ const EVENTS = [
     start: "2025-09-16",
     end: "2025-09-19",
     meta: "September 16-19, 2025 &middot; Berlin, Germany",
-    title: 'Attended as Program Committee member and Workshop &amp; Tutorial Chair at the 25th International Conference on Intelligent Virtual Agents (<a href="https://iva.acm.org/2025/" target="_blank" rel="noopener">IVA25</a>)',
+    title: 'Workshop &amp; Tutorial Chair and attendee at the 25th International Conference on Intelligent Virtual Agents (<a href="https://iva.acm.org/2025/" target="_blank" rel="noopener">IVA25</a>)',
   },
   {
     start: "2025-09-08",
