@@ -73,7 +73,7 @@ const EVENTS = [
     start: "2025-12-02",
     end: "2025-12-07",
     meta: "December 2&ndash;7, 2025 &middot; Copenhagen, Denmark",
-    title: 'Attended &amp; sponsored (Nordic AI Partnership) <a href="https://eurips.cc" target="_blank" rel="noopener">EurIPS Copenhagen 2025</a>',
+    title: 'Attendee and sponsor through the <a href="https://www.nordicpartnership.ai" target="_blank" rel="noopener">Nordic AI Partnership</a> at <a href="https://eurips.cc" target="_blank" rel="noopener">EurIPS Copenhagen 2025</a>',
   },
   {
     start: "2025-11-26",
