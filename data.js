@@ -252,6 +252,11 @@ const EVENTS = [
     meta: "September 2022 &middot; Faro, Portugal",
     title: 'Program Committee member at the 22nd international conference on Intelligent Virtual Agents (<a href="https://ivaconference2022.ualg.pt" target="_blank" rel="noopener">IVA22</a>)',
   },
+  {
+    start: "2022-07-01",
+    meta: "July 2022 &middot; Reykjavik University",
+    title: 'Co-organized the <a href="http://cadia.ru.is/events/IWSSL22/program.html" target="_blank" rel="noopener">Third Annual International Workshop on Self-Supervised Learning</a>',
+  },
 ];
 
 const PUBLICATIONS = [
