@@ -45,6 +45,11 @@ const EVENTS = [
 
   // ── Past (sorted automatically) ──
   {
+    start: "2026-05-06",
+    meta: "May 6, 2026 &middot; Reykjavik University",
+    title: 'Speaker and panelist at <a href="https://www.ru.is/vidburdir/log-og-taekni-bilid-bruad" target="_blank" rel="noopener">Lög og tækni – bilið brúað</a> (Law and Technology – Bridging the Gap)',
+  },
+  {
     start: "2026-03-13",
     meta: "March 13, 2026 &middot; Reykjavik University",
     title: "Speaker at AI &amp; Society",
