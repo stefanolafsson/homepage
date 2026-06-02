@@ -243,6 +243,11 @@ const EVENTS = [
     title: "Team Soultech &mdash; 2nd place at the Gulleggið start-up innovation competition",
   },
   {
+    start: "2023-01-19",
+    meta: "January 19, 2023",
+    title: "Invited speaker at Læknadagar &mdash; &ldquo;Stafrænar meðferðir við nikótínfíkn&rdquo;",
+  },
+  {
     start: "2022-09-01",
     meta: "September 2022 &middot; Faro, Portugal",
     title: 'Program Committee member at the 22nd international conference on Intelligent Virtual Agents (<a href="https://ivaconference2022.ualg.pt" target="_blank" rel="noopener">IVA22</a>)',
