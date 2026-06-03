@@ -260,6 +260,15 @@ const EVENTS = [
 ];
 
 const PUBLICATIONS = [
+  // ── 2026 ──
+  {
+    url: "http://lrec-conf.org/proceedings/lrec2026/workshops/rapid6mentalai/2026.rapid6mentalai-1.0.pdf",
+    title: "The Icelandic Language Biobank: Data Collection through a Clinical Analysis Platform",
+    authors: "I Nowenstein, N Núñez Macías, GT Örnólfsson, S Ólafsson, B Bergþórsdóttir, I Kristínardóttir, H Hafsteinsson",
+    venue: "Proceedings of the 6th RaPID Workshop (MentalAI), LREC 2026",
+    year: 2026,
+  },
+
   // ── 2025 ──
   {
     url: "https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=F0xHwH8AAAAJ&amp;citation_for_view=F0xHwH8AAAAJ:QIV2ME_5wuYC",
