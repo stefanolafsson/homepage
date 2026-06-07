@@ -29,7 +29,7 @@ const EVENTS = [
     start: "2026-09-07",
     end: "2026-09-11",
     meta: "September 7&ndash;11, 2026 &middot; Puebla, Mexico",
-    title: "Chairing the Doctoral Consortium at IVA 2026",
+    title: 'PC member and Doctoral Consortium co-chair at <a href="https://iva.acm.org/2026/" target="_blank" rel="noopener">IVA 2026</a>',
   },
   {
     start: "2026-09-24",
