@@ -565,6 +565,14 @@ const PUBLICATIONS = [
 // the tabs; `meta` is shown verbatim. Newest first. Group (BSc) projects list all
 // students. Icelandic characters are raw UTF-8 (the file is UTF-8).
 const THESES = [
+  // ── Current (in progress) ──
+  {
+    level: "PhD",
+    student: "Naizeth Núñez Macías",
+    title: "Language Technologies for Individuals with Speech and Language Disorders: A Cross-Linguistic Approach",
+    meta: "PhD &middot; Supervisor &middot; In progress &middot; Reykjavik University",
+  },
+
   // ── 2026 ──
   {
     level: "MSc",
