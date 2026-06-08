@@ -124,11 +124,12 @@
         return t.level === lvl;
       });
     });
-    var filters = [{ key: "all", label: "All" }].concat(
-      present.map(function (lvl) {
+    // Level tabs first, "All" last.
+    var filters = present
+      .map(function (lvl) {
         return { key: lvl, label: lvl };
       })
-    );
+      .concat([{ key: "all", label: "All" }]);
 
     function apply(key, btn) {
       [].forEach.call(tabsEl.children, function (b) {
@@ -140,8 +141,12 @@
       });
     }
 
+    // Default to PhD if present, otherwise the first available filter.
+    var defaultKey = present.indexOf("PhD") !== -1 ? "PhD" : filters[0].key;
+    var defaultBtn = null;
+
     tabsEl.innerHTML = "";
-    filters.forEach(function (f, i) {
+    filters.forEach(function (f) {
       var count =
         f.key === "all"
           ? THESES.length
@@ -150,13 +155,16 @@
             }).length;
       var btn = document.createElement("button");
       btn.type = "button";
-      btn.className = "thesis-tab" + (i === 0 ? " active" : "");
+      btn.className = "thesis-tab";
       btn.textContent = f.label + " (" + count + ")";
       btn.addEventListener("click", function () {
         apply(f.key, btn);
       });
       tabsEl.appendChild(btn);
+      if (f.key === defaultKey) defaultBtn = btn;
     });
+
+    if (defaultBtn) apply(defaultKey, defaultBtn);
   }
 
   function init() {
