@@ -290,7 +290,7 @@ const EVENTS = [
   {
     start: "2022-12-11",
     meta: "December 11, 2022",
-    title: 'Guest on <a href="https://www.ruv.is/utvarp/spila/silfrid/30778/9j38lt" target="_blank" rel="noopener">Silfrið</a> (RÚV Sjónvarp)',
+    title: 'Panelist on the AI segment of <a href="https://www.ruv.is/utvarp/spila/silfrid/30778/9j38lt" target="_blank" rel="noopener">Silfrið</a> (RÚV Sjónvarp), hosted by Sigríður Hagalín Björnsdóttir',
   },
   {
     start: "2022-09-01",
