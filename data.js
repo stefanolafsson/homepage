@@ -65,6 +65,11 @@ const EVENTS = [
     title: "Invited speaker on the use of AI in banking &mdash; Landsbankinn",
   },
   {
+    start: "2026-04-15",
+    meta: "April 15, 2026",
+    title: 'Radio guest on <a href="https://www.ruv.is/utvarp/spila/morgunutvarpid/23822/bilic7" target="_blank" rel="noopener">Morgunútvarpið</a> (RÚV Rás 2) &mdash; &ldquo;Misskilningur um gervigreind&rdquo;',
+  },
+  {
     start: "2026-03-13",
     meta: "March 13, 2026 &middot; Reykjavik University",
     title: "Speaker at AI &amp; Society",
@@ -83,6 +88,11 @@ const EVENTS = [
     start: "2026-01-28",
     meta: "January 28, 2026 &middot; Árni Magnússon Institute, Reykjavik",
     title: 'Organized &amp; spoke at the <a href="https://www.arnastofnun.is/is/vidburdir/malthing-um-fyrsta-maltolvunarverkefnid" target="_blank" rel="noopener">Symposium on Iceland\'s First Computational Linguistics Project</a>',
+  },
+  {
+    start: "2026-01-28",
+    meta: "January 28, 2026",
+    title: 'Radio guest on <a href="https://www.ruv.is/utvarp/spila/morgunvaktin/23614/ave18u" target="_blank" rel="noopener">Morgunvaktin</a> (RÚV Rás 1) on Iceland\'s first computational language-technology project',
   },
   {
     start: "2025-12-02",
@@ -203,6 +213,16 @@ const EVENTS = [
     title: 'Attended the <a href="https://gudni.forseti.is/fréttir/2024-01-18-nýskoepunarverðlaun-forseta-íslands/" target="_blank" rel="noopener">Nýsköpunarverðlaun forseta Íslands</a> (President of Iceland\'s Innovation Award) &mdash; students were nominated for their work',
   },
   {
+    start: "2024-01-03",
+    meta: "January 3, 2024",
+    title: 'Panelist on <a href="https://www.ruv.is/sjonvarp/spila/kastljos/35422/ahptv2" target="_blank" rel="noopener">Kastljós</a> (RÚV Sjónvarp) on AI and privacy',
+  },
+  {
+    start: "2023-10-24",
+    meta: "October 24, 2023",
+    title: 'Radio guest on <a href="https://www.visir.is/k/819f2686-81da-4a25-a344-06fe6e893e6c-1698170624505" target="_blank" rel="noopener">Reykjavík síðdegis</a> (Bylgjan) &mdash; &ldquo;Gervigreind hægt að nota til góðs og ills&rdquo;',
+  },
+  {
     start: "2023-09-22",
     meta: "September 22, 2023 &middot; University of Zurich",
     title: 'Invited speaker at the interdisciplinary workshop <a href="https://ethics.dsi.uzh.ch/news/invitation_humanization-of-healthcare-chatbots/" target="_blank" rel="noopener">&ldquo;Humanization of Healthcare Chatbots&rdquo;</a>',
@@ -231,6 +251,11 @@ const EVENTS = [
     start: "2023-06-01",
     meta: "June 1, 2023 &middot; Reykjavik University",
     title: 'Hosted Dr. Tobias Kowatsch for the talk &ldquo;Digital Therapeutics for Healthy Longevity&rdquo; and the workshop &ldquo;MobileCoach: An Open Source Software Platform for Digital Health Interventions&rdquo;',
+  },
+  {
+    start: "2023-05-07",
+    meta: "May 7, 2023",
+    title: 'Panelist on the AI segment of <a href="https://www.ruv.is/sjonvarp/spila/silfrid/30778/9vuug1" target="_blank" rel="noopener">Silfrið</a> (RÚV Sjónvarp), hosted by Egill Helgason',
   },
   {
     start: "2023-04-26",
