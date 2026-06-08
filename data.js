@@ -559,3 +559,181 @@ const PUBLICATIONS = [
     year: 2014,
   },
 ];
+
+// Theses supervised or examined, rendered on service.html (#theses-list) with
+// filter tabs (#theses-tabs) built by site.js. `level` ("PhD"/"MSc"/"BSc") drives
+// the tabs; `meta` is shown verbatim. Newest first. Group (BSc) projects list all
+// students. Icelandic characters are raw UTF-8 (the file is UTF-8).
+const THESES = [
+  // ── 2026 ──
+  {
+    level: "MSc",
+    student: "Yuang Yang",
+    title: "Multi-agent Reinforcement Learning for Order Dispatching and Sequencing in On-Demand Food Delivery Platforms",
+    meta: "MSc &middot; Supervisor &middot; 2026 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Heiður Karítas Andersdóttir, Orri Ársælsson, Stefán Örn Gíslason",
+    title: "FCA: endurkóðun",
+    meta: "BSc &middot; Supervisor &middot; 2026 &middot; Reykjavik University",
+  },
+
+  // ── 2025 ──
+  {
+    level: "MSc",
+    student: "Páll Rúnarsson",
+    title: "Analyzing Icelandic Conversation using State-of-the-Art ASR Models",
+    meta: "MSc &middot; Co-supervisor &middot; Defended June 4, 2025 &middot; Reykjavik University",
+  },
+  {
+    level: "PhD",
+    student: "Bjarki Freyr Sveinbjarnarson",
+    title: "Scaling Data Governance Through Automation and Dynamic Data Spaces",
+    meta: "PhD &middot; Committee member &middot; Defended May 2, 2025 &middot; Reykjavik University",
+  },
+  {
+    level: "PhD",
+    student: "Ioana Duta-Visescu",
+    title: "Complicated, by Design: The Dynamic Use of a Novel User-Centred Design Process",
+    meta: "PhD &middot; Committee member &middot; Defended March 7, 2025 &middot; Reykjavik University",
+  },
+  {
+    level: "PhD",
+    student: "Benedikt Hólm Þórðarson",
+    title: "Bridging Human and Artificial Intelligence: Machine Learning, Data Platforms, and Decision Support Systems in Sleep Research",
+    meta: "PhD &middot; Committee member &middot; Defended February 6, 2025 &middot; Reykjavik University",
+  },
+  {
+    level: "MSc",
+    student: "Bjarki Freyr Rúnarsson",
+    title: "Design and Development of a Digital Health Artifact for Parents of Preterm or Sick Neonates",
+    meta: "MSc &middot; Supervisor &middot; Defended January 16, 2025 &middot; Reykjavik University",
+  },
+  {
+    level: "MSc",
+    student: "Atli Egilsson",
+    title: "Understanding Icelandic Insurance Claims: From Text to Incident Classification",
+    meta: "MSc &middot; Supervisor &middot; Defended January 13, 2025 &middot; Reykjavik University",
+  },
+  {
+    level: "MSc",
+    student: "Kaustab Chandra Sahu",
+    title: "Language Models for Clinical Text Analysis",
+    meta: "MSc &middot; Supervisor &middot; Defended January 13, 2025 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Kristlind Viktoría L. Sörensen, Bragi Karl Bjarkason, Bjarni Gunnar Eiðsson",
+    title: "Digital Aftercare Plan in the Mobile Application Bati",
+    meta: "BSc &middot; Supervisor &middot; 2025 &middot; Reykjavik University",
+  },
+
+  // ── 2024 ──
+  {
+    level: "MSc",
+    student: "Pietro Angelici",
+    title: "Enhancing Document Review through Knowledge Graphs and Large Language Models",
+    meta: "MSc &middot; Supervisor &middot; 2024 &middot; Reykjavik University",
+  },
+  {
+    level: "MSc",
+    student: "Elena Ovsiannikova",
+    title: "IceSpike: Investigating Spiking Neural Networks for Icelandic Text Classification",
+    meta: "MSc &middot; Supervisor &middot; 2024 &middot; Reykjavik University",
+  },
+  {
+    level: "MSc",
+    student: "Kara Líf Ingibergsdóttir",
+    title: "Iterative Development of an Assistive Writing Tool for People with Autism Spectrum Disorder: A Natural Language Processing Approach",
+    meta: "MSc &middot; Supervisor &middot; 2024 &middot; Reykjavik University",
+  },
+  {
+    level: "MSc",
+    student: "Þórir Hrafn Harðarson",
+    title: "Aligning Language Models to Professional Domains using Preference Training",
+    meta: "MSc &middot; Supervisor &middot; 2024 &middot; Reykjavik University",
+  },
+  {
+    level: "MSc",
+    student: "Laufey Ósk Andrésdóttir",
+    title: "Wearable Technology and Sleep Patterns: Exploring Shift Work and More",
+    meta: "MSc &middot; Supervisor &middot; 2024 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Arnór Heimir Sigurðsson, Katrín Lilja Pétursdóttir, Þór Breki Þorgrímsson",
+    title: "Stafræn sálfræðiþjónusta",
+    meta: "BSc &middot; Supervisor &middot; 2024 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Along Alexander Loftsson, Haukur Sveinsson, Róbert Atli Svavarsson",
+    title: "User Experience and Automation in Digital Therapy: Design Template Creator App",
+    meta: "BSc &middot; Supervisor &middot; 2024 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Birkir Finnbogi H. Arndal, Eysteinn Örn Jónsson, Ólafur Aron Jóhannsson",
+    title: "Evaluating Icelandic Sentiment Analysis Models Trained on Translated Data",
+    meta: "BSc &middot; Supervisor &middot; 2024 &middot; Reykjavik University",
+  },
+
+  // ── 2023 ──
+  {
+    level: "BSc",
+    student: "Aron Orri Fannarsson, Davíð Örn Harðarson, Grímur Valur Gunnarsson, Hörður Snævar Harðarson, Tryggvi Þór Árnason",
+    title: "A Smartphone Application to Support Individuals in Mental Health Treatment",
+    meta: "BSc &middot; Supervisor &middot; 2023 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Sigurður Galdur Loftsson",
+    title: "A Prototype of a Video Game Based on Ávaxtakarfan",
+    meta: "BSc &middot; Supervisor &middot; 2023 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Arnór Daníel Moncada, Ásdís Dagsdóttir, Magnús Atli Gylfason",
+    title: "Digital Platform for Psychological Treatments &amp; Management for Psychologists",
+    meta: "BSc &middot; Supervisor &middot; 2023 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Unnur Sóley Lindudóttir",
+    title: "Development and Research of Adding Gamified Elements into Bati Software and the Effect it has on Users Struggling with Substance Use Disorder",
+    meta: "BSc &middot; Supervisor &middot; 2023 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Baldur Olsen, Kári Steinn Hlífarsson, Magnús Friðrik Helgason",
+    title: "A Dual Interface Approach for Patient Diagnosis and Doctor Consultation with the Help of Artificial Intelligence",
+    meta: "BSc &middot; Supervisor &middot; 2023 &middot; Reykjavik University",
+  },
+
+  // ── 2022 ──
+  {
+    level: "BSc",
+    student: "Bertha María Óladóttir, Lilja Magnúsdóttir, Matthildur Aradóttir, Sóley Birgisdóttir",
+    title: "Stafræn virkni- og meðferðaráætlun fyrir skjólstæðinga Batamiðstöðvarinnar",
+    meta: "BSc &middot; Supervisor &middot; 2022 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Bjarki Már Friðriksson, Ingólfur Orri Gústafsson, Natalia Potamianou, Patrekur Ingi Sigfússon",
+    title: "HuguR: Website for Screening Students' Mental Health at Reykjavik University",
+    meta: "BSc &middot; Supervisor &middot; 2022 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Eva Lísa Sveinsdóttir, Garðar Þór Pétursson, Irma Alexandra Hopkins, Sara Helena Bjarnadóttir Blöndal",
+    title: "HALD: smáforrit fyrir utanumhald bataferlis",
+    meta: "BSc &middot; Supervisor &middot; 2022 &middot; Reykjavik University",
+  },
+  {
+    level: "BSc",
+    student: "Daníel Þór Calvi, Eggert Már Eggertsson, Elías Friðberg Guðjohnsen, Jason Guðnason",
+    title: "SÁÁ Employee Interface",
+    meta: "BSc &middot; Supervisor &middot; 2022 &middot; Reykjavik University",
+  },
+];

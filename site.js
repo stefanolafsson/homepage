@@ -100,10 +100,70 @@
     }
   }
 
+  function thesisHTML(t) {
+    return (
+      '<li data-level="' + t.level + '">' +
+      "<h3>" + t.student + " &mdash; " + t.title + "</h3>" +
+      '<p class="item-meta">' + t.meta + "</p>" +
+      "</li>"
+    );
+  }
+
+  function renderTheses() {
+    if (typeof THESES === "undefined") return;
+    var list = document.getElementById("theses-list");
+    if (!list) return;
+    list.innerHTML = THESES.map(thesisHTML).join("");
+
+    var tabsEl = document.getElementById("theses-tabs");
+    if (!tabsEl) return;
+
+    var order = ["PhD", "MSc", "BSc"];
+    var present = order.filter(function (lvl) {
+      return THESES.some(function (t) {
+        return t.level === lvl;
+      });
+    });
+    var filters = [{ key: "all", label: "All" }].concat(
+      present.map(function (lvl) {
+        return { key: lvl, label: lvl };
+      })
+    );
+
+    function apply(key, btn) {
+      [].forEach.call(tabsEl.children, function (b) {
+        b.classList.toggle("active", b === btn);
+      });
+      [].forEach.call(list.children, function (li) {
+        li.style.display =
+          key === "all" || li.getAttribute("data-level") === key ? "" : "none";
+      });
+    }
+
+    tabsEl.innerHTML = "";
+    filters.forEach(function (f, i) {
+      var count =
+        f.key === "all"
+          ? THESES.length
+          : THESES.filter(function (t) {
+              return t.level === f.key;
+            }).length;
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "thesis-tab" + (i === 0 ? " active" : "");
+      btn.textContent = f.label + " (" + count + ")";
+      btn.addEventListener("click", function () {
+        apply(f.key, btn);
+      });
+      tabsEl.appendChild(btn);
+    });
+  }
+
   function init() {
     renderNav();
     renderEvents();
     renderPublications();
+    renderTheses();
   }
 
   if (document.readyState === "loading") {
