@@ -50,6 +50,11 @@ const EVENTS = [
     title: 'Attended <a href="https://www.lis.is/is/um-li/frettakerfi/vidurkenningar-a-degi-laekna-2026" target="_blank" rel="noopener">Dagur lækna 2026</a>, where our start-up Careflux received the award for Outstanding Innovation &amp; Quality Work (Læknafélag Íslands)',
   },
   {
+    start: "2026-05-13",
+    meta: "May 13, 2026 &middot; Iceland Parliament Hotel, Reykjavik",
+    title: 'Attended AI Summit Iceland, where our start-up Careflux received the <a href="https://www.mbl.is/vidskipti/frettir/2026/05/18/careflux_og_bara_tala_hljota_gervigreindarverdlaun_/" target="_blank" rel="noopener">Gervigreindarverðlaun Íslands 2026</a> (Icelandic AI Award)',
+  },
+  {
     start: "2026-05-06",
     meta: "May 6, 2026 &middot; Reykjavik University",
     title: 'Speaker and panelist at <a href="https://www.ru.is/vidburdir/log-og-taekni-bilid-bruad" target="_blank" rel="noopener">Lög og tækni – bilið brúað</a> (Law and Technology – Bridging the Gap)',
