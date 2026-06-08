@@ -50,6 +50,11 @@ const EVENTS = [
     title: 'Speaker and panelist at <a href="https://www.ru.is/vidburdir/log-og-taekni-bilid-bruad" target="_blank" rel="noopener">Lög og tækni – bilið brúað</a> (Law and Technology – Bridging the Gap)',
   },
   {
+    start: "2026-04-16",
+    meta: "April 16, 2026 &middot; Reykjavik, Iceland",
+    title: "Invited speaker on the use of AI in banking &mdash; Landsbankinn",
+  },
+  {
     start: "2026-03-13",
     meta: "March 13, 2026 &middot; Reykjavik University",
     title: "Speaker at AI &amp; Society",
