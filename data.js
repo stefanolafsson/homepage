@@ -576,6 +576,24 @@ const THESES = [
   // ── 2026 ──
   {
     level: "MSc",
+    student: "Einar Örn Gissurarson",
+    title: '<a href="https://skemman.is/handle/1946/53716" target="_blank" rel="noopener">Hugrún: Runtime-Governed Therapeutic Interaction for LLM-Based CBT Systems</a>',
+    meta: "MSc &middot; Supervisor &middot; Spring 2026 &middot; Reykjavik University",
+  },
+  {
+    level: "MSc",
+    student: "Justyna Micota",
+    title: '<a href="https://skemman.is/handle/1946/53700" target="_blank" rel="noopener">Automatic Anonymization of Icelandic Medical Data: Named Entity Recognition for Unseen Text with Fine Tuning on Synthetic Corpora</a>',
+    meta: "MSc &middot; Supervisor &middot; Spring 2026 &middot; Reykjavik University",
+  },
+  {
+    level: "MSc",
+    student: "Thelma Rut Jóhannsdóttir",
+    title: '<a href="https://skemman.is/handle/1946/53697" target="_blank" rel="noopener">Evaluating Overt and Covert Semantic Poisoning using Minimal Factual Sentence Injection</a>',
+    meta: "MSc &middot; Supervisor &middot; Spring 2026 &middot; Reykjavik University",
+  },
+  {
+    level: "MSc",
     student: "Yuang Yang",
     title: "Multi-agent Reinforcement Learning for Order Dispatching and Sequencing in On-Demand Food Delivery Platforms",
     meta: "MSc &middot; Supervisor &middot; 2026 &middot; Reykjavik University",
