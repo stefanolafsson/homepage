@@ -590,7 +590,7 @@ const THESES = [
     level: "MSc",
     student: "Thelma Rut Jóhannsdóttir",
     title: '<a href="https://skemman.is/handle/1946/53697" target="_blank" rel="noopener">Evaluating Overt and Covert Semantic Poisoning using Minimal Factual Sentence Injection</a>',
-    meta: "MSc &middot; Supervisor &middot; Spring 2026 &middot; Reykjavik University",
+    meta: "MSc &middot; Co-supervisor &middot; Spring 2026 &middot; Reykjavik University",
   },
   {
     level: "MSc",
