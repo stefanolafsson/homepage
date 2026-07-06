@@ -572,6 +572,12 @@ const THESES = [
     title: "Language Technologies for Individuals with Speech and Language Disorders: A Cross-Linguistic Approach",
     meta: "PhD &middot; Supervisor &middot; In progress &middot; Reykjavik University",
   },
+  {
+    // No thesis title yet — renders as the student name only.
+    level: "PhD",
+    student: "Páll Rúnarsson",
+    meta: "PhD &middot; Supervisor &middot; In progress &middot; Reykjavik University",
+  },
 
   // ── 2026 ──
   {

@@ -101,9 +101,10 @@
   }
 
   function thesisHTML(t) {
+    var heading = t.title ? t.student + " &mdash; " + t.title : t.student;
     return (
       '<li data-level="' + t.level + '">' +
-      "<h3>" + t.student + " &mdash; " + t.title + "</h3>" +
+      "<h3>" + heading + "</h3>" +
       '<p class="item-meta">' + t.meta + "</p>" +
       "</li>"
     );
