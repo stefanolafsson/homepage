@@ -575,7 +575,7 @@ const THESES = [
   {
     level: "PhD",
     student: "Páll Rúnarsson",
-    title: "AI &amp; Privacy (working title)",
+    title: "AI &amp; Privacy",
     meta: "PhD &middot; Supervisor &middot; In progress &middot; Reykjavik University",
   },
 
