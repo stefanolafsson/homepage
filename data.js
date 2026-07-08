@@ -573,9 +573,9 @@ const THESES = [
     meta: "PhD &middot; Supervisor &middot; In progress &middot; Reykjavik University",
   },
   {
-    // No thesis title yet — renders as the student name only.
     level: "PhD",
     student: "Páll Rúnarsson",
+    title: "AI &amp; Privacy (working title)",
     meta: "PhD &middot; Supervisor &middot; In progress &middot; Reykjavik University",
   },
 
