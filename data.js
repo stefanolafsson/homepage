@@ -20,23 +20,6 @@ const NAV_ITEMS = [
 const EVENTS = [
   // ── Upcoming (sorted automatically) ──
   {
-    start: "2026-04-20",
-    end: "2026-04-22",
-    meta: "April 20&ndash;22, 2026 &middot; Utrecht, Netherlands",
-    title: "Attended the CLARIN University Curricula Workshop",
-  },
-  {
-    start: "2026-09-07",
-    end: "2026-09-11",
-    meta: "September 7&ndash;11, 2026 &middot; Puebla, Mexico",
-    title: 'PC member and Doctoral Consortium co-chair at <a href="https://iva.acm.org/2026/" target="_blank" rel="noopener">IVA 2026</a>',
-  },
-  {
-    start: "2026-09-24",
-    meta: "September 24, 2026 &middot; Edda, University of Iceland",
-    title: 'Speaker at <a href="https://islenskan.is/malraektarthing-2026/" target="_blank" rel="noopener">Málræktarþing 2026</a> (Íslensk málnefnd) &mdash; &ldquo;Margt ósagt: Þörfin fyrir marghátta íslensk málgögn&rdquo;',
-  },
-  {
     start: "2026-10-14",
     end: "2026-10-15",
     meta: "October 14&ndash;15, 2026 &middot; Reykjavik University",
@@ -44,6 +27,17 @@ const EVENTS = [
   },
 
   // ── Past (sorted automatically) ──
+  {
+    start: "2026-09-24",
+    meta: "September 24, 2026 &middot; Edda, University of Iceland",
+    title: 'Speaker at <a href="https://islenskan.is/malraektarthing-2026/" target="_blank" rel="noopener">Málræktarþing 2026</a> (Íslensk málnefnd) &mdash; &ldquo;Margt ósagt: Þörfin fyrir marghátta íslensk málgögn&rdquo;',
+  },
+  {
+    start: "2026-09-07",
+    end: "2026-09-11",
+    meta: "September 7&ndash;11, 2026 &middot; Puebla, Mexico",
+    title: 'PC member and Doctoral Consortium co-chair at <a href="https://iva.acm.org/2026/" target="_blank" rel="noopener">IVA 2026</a>',
+  },
   {
     start: "2026-05-17",
     meta: "May 17, 2026 &middot; Þjóðminjasafn Íslands, Reykjavik",
@@ -58,6 +52,12 @@ const EVENTS = [
     start: "2026-05-06",
     meta: "May 6, 2026 &middot; Reykjavik University",
     title: 'Speaker and panelist at <a href="https://www.ru.is/vidburdir/log-og-taekni-bilid-bruad" target="_blank" rel="noopener">Lög og tækni – bilið brúað</a> (Law and Technology – Bridging the Gap)',
+  },
+  {
+    start: "2026-04-20",
+    end: "2026-04-22",
+    meta: "April 20&ndash;22, 2026 &middot; Utrecht, Netherlands",
+    title: "Attended the CLARIN University Curricula Workshop",
   },
   {
     start: "2026-04-16",
