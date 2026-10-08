@@ -33,8 +33,8 @@ const EVENTS = [
   },
   {
     start: "2026-09-24",
-    meta: "September 24, 2026 &middot; University of Iceland",
-    title: "Speaker at &Iacute;slenskan og snjallt&aelig;knin",
+    meta: "September 24, 2026 &middot; Edda, University of Iceland",
+    title: 'Speaker at <a href="https://islenskan.is/malraektarthing-2026/" target="_blank" rel="noopener">Málræktarþing 2026</a> (Íslensk málnefnd) &mdash; &ldquo;Margt ósagt: Þörfin fyrir marghátta íslensk málgögn&rdquo;',
   },
   {
     start: "2026-10-14",
