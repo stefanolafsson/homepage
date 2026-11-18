@@ -234,11 +234,6 @@ const EVENTS = [
   },
   {
     start: "2023-09-01",
-    meta: "September 2023",
-    title: 'Co-authored &ldquo;Notkun gervigreindar í heilbrigðiskerfinu&rdquo; in <a href="https://www.sky.is/images/stories/Tolvumal/Tolvumal_2023.pdf" target="_blank" rel="noopener">Tölvumál</a>',
-  },
-  {
-    start: "2023-09-01",
     meta: "September 2023 &middot; Würzburg, Germany",
     title: 'Program Committee member at the 23th international conference on Intelligent Virtual Agents (<a href="https://iva.acm.org/2023/" target="_blank" rel="noopener">IVA23</a>)',
   },
@@ -315,7 +310,7 @@ const PUBLICATIONS = [
     url: "https://islenskan.is/wp-content/uploads/2026/11/Malfregnir-2026-37.pdf",
     title: "Margt ósagt: Þörfin fyrir marghátta íslensk málgögn",
     authors: "S Ólafsson",
-    venue: "Málfregnir, 24. árgangur, 2. tölublað, Íslensk málnefnd",
+    venue: "Málfregnir, 24(2), 24–29, Íslensk málnefnd",
     year: 2026,
   },
   {
@@ -386,6 +381,13 @@ const PUBLICATIONS = [
     title: "Conversational Assessment of Mild Cognitive Impairment with Virtual Agents",
     authors: "EE Hurstak, S Olafsson, TK O'Leary, HJ Cabral, M Paasche-Orlow, T Bickmore",
     venue: "Proceedings of the 23rd ACM International Conference on Intelligent Virtual Agents (IVA '23)",
+    year: 2023,
+  },
+  {
+    url: "https://www.sky.is/images/stories/Tolvumal/Tolvumal_2023.pdf",
+    title: "Notkun gervigreindar í heilbrigðiskerfinu",
+    authors: "H Loftsson, S Ólafsson, EL Sigurðsson",
+    venue: "Tölvumál, Ský",
     year: 2023,
   },
 
