@@ -19,14 +19,19 @@ const NAV_ITEMS = [
 
 const EVENTS = [
   // ── Upcoming (sorted automatically) ──
+
+  // ── Past (sorted automatically) ──
+  {
+    start: "2026-11-13",
+    meta: "November 13, 2026 &middot; University of Copenhagen",
+    title: 'Panelist at the <a href="https://nordicaihub.org" target="_blank" rel="noopener">Nordic AI Hub</a> Conference 2026',
+  },
   {
     start: "2026-10-14",
     end: "2026-10-15",
     meta: "October 14&ndash;15, 2026 &middot; Reykjavik University",
     title: 'Co-organizer of the <a href="https://www.nordicaimeet.com" target="_blank" rel="noopener">Nordic AI Meet</a>',
   },
-
-  // ── Past (sorted automatically) ──
   {
     start: "2026-09-24",
     meta: "September 24, 2026 &middot; Edda, University of Iceland",
