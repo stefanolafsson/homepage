@@ -19,6 +19,12 @@ const NAV_ITEMS = [
 
 const EVENTS = [
   // ── Upcoming (sorted automatically) ──
+  {
+    start: "2027-09-12",
+    end: "2027-09-15",
+    meta: "September 12&ndash;15, 2027 &middot; Reykjavik, Iceland",
+    title: 'General Chair of the 27th ACM International Conference on Intelligent Virtual Agents (<a href="https://iva.acm.org/2027/" target="_blank" rel="noopener">IVA 2027</a>)',
+  },
 
   // ── Past (sorted automatically) ──
   {
