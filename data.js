@@ -312,6 +312,13 @@ const EVENTS = [
 const PUBLICATIONS = [
   // ── 2026 ──
   {
+    url: "https://islenskan.is/wp-content/uploads/2026/11/Malfregnir-2026-37.pdf",
+    title: "Margt ósagt: Þörfin fyrir marghátta íslensk málgögn",
+    authors: "S Ólafsson",
+    venue: "Málfregnir, 24. árgangur, 2. tölublað, Íslensk málnefnd",
+    year: 2026,
+  },
+  {
     url: "http://lrec-conf.org/proceedings/lrec2026/workshops/rapid6mentalai/2026.rapid6mentalai-1.0.pdf",
     title: "The Icelandic Language Biobank: Data Collection through a Clinical Analysis Platform",
     authors: "I Nowenstein, N Núñez Macías, GT Örnólfsson, S Ólafsson, B Bergþórsdóttir, I Kristínardóttir, H Hafsteinsson",
